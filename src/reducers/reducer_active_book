@@ -1,0 +1,13 @@
+//state is not application state, only the statw
+//this reducer is responsible for
+
+//if state undefined set it to null
+export default function(state=null,action){
+    switch(action.type){
+        case 'BOOK_SELECTED':
+            return action.payload;
+
+
+    }
+    return state;
+}
